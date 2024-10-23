@@ -1,0 +1,48 @@
+
+:root{
+  --fontWhite: #FFFFFF;
+  --fontBlack: #000000;
+  --fontGray: #686868;
+  --fontBlue: #006FFD;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  font-family:  "Lexend Deca", sans-serif;
+}
+
+
+
+
+
+
+/* section one start */
+.main-img::after{
+   background-image: url(main-cover-img.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
