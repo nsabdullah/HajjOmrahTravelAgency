@@ -12,37 +12,60 @@
   list-style: none;
   text-decoration: none;
   list-style: none;
+
 }
 body{
   font-family:  "Lexend Deca", sans-serif;
 }
+.container{
+  width: 1528px;
+  margin: 0 auto;
 
+}
+
+/* header  start */
+header{
+  background-image: url(../img/main-cover-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 26px 0 26px;
+  width: 1676px;
+  height: 1068.35px;
+  margin: 0 auto;
+}
+.header_wreper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51px;
+}
+.header_nav ul{
+  display: flex;
+  gap: 61px;
+}
+.header_nav ul li a{
+   color: var(--fontWhite);
+   font-size: 18px;
+}
+header h1{
+  color: var(--fontWhite);
+  margin: 160px 187px 605px 164px;
+  width: 1211px;
+  text-align-last: center;
+  font-weight: 300;
+  font-size: 85px;
+  letter-spacing: 3%;
+}
+/* header  end */
 
 
 
 
 
 /* section one start */
-.main-img::after{
-   background-image: url(main-cover-img.png);
+.visa-name ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* section one start */
