@@ -6,6 +6,7 @@
   --fontBlue: #006FFD;
   --gray: #CCCCCC;
   --grayblack: #353535;
+  --itemBackground: #F7F7F7;
 
 }
 *{
@@ -22,7 +23,12 @@ body{
 .container{
   width: 1528px;
   margin: 0 auto;
-
+}
+h3{
+  font-size: 57px;
+  line-height: 55px;
+  font-weight: 400;
+  margin: 24px 0 25px 0;
 }
 .primary-btn{
   height: 42px;
@@ -36,7 +42,12 @@ body{
   padding: 5px 20px;
   align-items: center;
 }
-
+.primary-p{
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--grayblack);
+  font-weight: 400;
+}
 /* header  start */
 header{
   background-image: url(../img/main-cover-img.png);
@@ -118,7 +129,6 @@ header h1{
 .visa-sale p{
   font-size: 48px;
   line-height: 55px;
-  font-weight: 400;
 }
 .visa-sal span{
   font-size: 22px;
@@ -136,20 +146,8 @@ header h1{
 .service{
   padding-top: 78px;
 }
-.service-title h3{
-  font-size: 57px;
-  line-height: 55px;
-  font-weight: 400;
-  width: 856px;
-  height: 55px;
-  margin: 24px 0 25px 0;
-}
 .service-title p{
-  font-size: 20px;
-  line-height: 30px;
-  color: var(--grayblack);
   width: 874px;
-  height: 56px;
   font-weight: 300;
 }
 .service-item ul{
@@ -165,7 +163,77 @@ header h1{
 
 
 
+/* consultantsection start */
+.consultant{
+  padding-top: 130px;
+}
+.consultant p{
+  width: 911px;
+  padding-bottom: 41px;
+}
+.consultantUl{
+  display: flex;
+  gap: 24px;
+}
+/* consultantsection end */
 
+
+/* Packages section start */
+.package-section{
+  padding-top: 102px;
+  position: relative;
+}
+.package-section hr{
+  width: 401px;
+  margin: 0  auto ;
+  margin-top: 31px;
+  margin-bottom: 24px;
+}
+.package-section p{
+  width: 692px;
+}
+.package-item{
+  height: 897px;
+  width: 493px;
+  padding: 27px 26px 41px 26px;
+  background-color: var(--itemBackground);
+}
+.package-section h6{
+  font-size: 34px;
+  line-height: 100%;
+  padding: 31px 103px 27px 21px;
+  font-weight: 400;
+}
+.package-section h5{
+  font-size: 46px;
+  font-weight: 400;
+  padding: 0 0 0 21px;
+}
+.package-section span{
+  font-size: 18px;
+  font-weight: 400;
+}
+.package-price span{
+  display: flex;
+  padding-left: 18px;
+  gap: 9px;
+
+}
+.package-price  .last-value{
+  width: 365px;
+}
+.package-price button{
+  width: 296px;
+  height: 58px;
+  background-color: var(--fontBlack);
+  color: var(--fontWhite);
+  border-radius: 29px;
+  line-height: 140%;
+  position: absolute;
+  left: 108px;
+  margin-top: 31px;
+}
+/* Packages section end */
 
 
 
