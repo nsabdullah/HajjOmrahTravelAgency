@@ -145,6 +145,8 @@ header h1{
 /* service section start */
 .service{
   padding-top: 78px;
+  height: 987px;
+  width: 1528px;
 }
 .service-title p{
   width: 874px;
@@ -302,6 +304,34 @@ header h1{
     padding: 108px 182px 71px 76px;
   }
 
+.footer-contant{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Al-Barakah h4{
+  font-size: 37px;
+  font-weight: 500;
+  
+}
+.Al-Barakah p{
+  width: 408px;
+  color: var(--fontWhite);
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 35px;
+}
+.Al-Barakah ul li a {
+  color: var(--fontWhite);
+}
+.Al-Barakah span{
+  padding-top: 61px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+  
 /* footer section end */
 
 
