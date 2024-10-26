@@ -178,10 +178,15 @@ header h1{
 /* consultantsection end */
 
 
+
+
+
+
 /* Packages section start */
 .package-section{
   padding-top: 102px;
   position: relative;
+  padding-bottom: 105px;
 }
 .package-section hr{
   width: 401px;
@@ -192,6 +197,10 @@ header h1{
 .package-section p{
   width: 692px;
 }
+.package{
+  display: flex;
+  gap: 25px;
+}
 .package-item{
   height: 897px;
   width: 493px;
@@ -199,7 +208,7 @@ header h1{
   background-color: var(--itemBackground);
 }
 .package-section h6{
-  font-size: 34px;
+  font-size: 32px;
   line-height: 100%;
   padding: 31px 103px 27px 21px;
   font-weight: 400;
@@ -217,23 +226,87 @@ header h1{
   display: flex;
   padding-left: 18px;
   gap: 9px;
-
 }
 .package-price  .last-value{
   width: 365px;
 }
-.package-price button{
+.price-width{
+  width: 365px;
+  margin: 0 auto;
+}
+ .button{
   width: 296px;
   height: 58px;
   background-color: var(--fontBlack);
   color: var(--fontWhite);
   border-radius: 29px;
   line-height: 140%;
-  position: absolute;
-  left: 108px;
-  margin-top: 31px;
+  outline: none;
+  margin: 35px 36px 40px 46px;
 }
 /* Packages section end */
+
+
+
+/* journey section start */
+
+.jurney{
+  display: flex;
+  height: 443px;
+
+  
+}
+.journey-description {
+  align-items: end;
+}
+.journey-description h3{
+  width: 493px;
+  padding: 25px 0 27px 0;
+}
+.journey-description p{
+  width: 480px;
+}
+.journey-description button{
+  margin: 35px 0 22px 0;
+}
+.journey-pleasure{
+  display: flex;
+  gap: 25px;
+  align-items: end;
+}
+.journey-pleasure img{
+  width: 493px;
+  height: 368px;
+}
+
+/* journey section end */
+
+
+
+
+
+
+
+
+
+/* footer section start */
+  footer{
+    background-color: var(--fontBlack);
+    height: 514px;
+    width: 1674px;
+    margin: 0 auto;
+    margin-top: 105px;
+    margin-bottom: 25px;
+    border-radius: 29px;
+    color: var(--fontWhite);
+    padding: 108px 182px 71px 76px;
+  }
+
+/* footer section end */
+
+
+
+
 
 
 
