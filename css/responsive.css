@@ -1,0 +1,6 @@
+@media (width < 760px) {
+  .container{
+    max-width: 100%;
+    padding: 20px;
+   }
+}

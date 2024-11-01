@@ -292,18 +292,17 @@ header h1{
 
 
 /* footer section start */
-  footer{
-    background-color: var(--fontBlack);
-    height: 514px;
-    width: 1674px;
-    margin: 0 auto;
-    margin-top: 105px;
-    margin-bottom: 25px;
-    border-radius: 29px;
-    color: var(--fontWhite);
-    padding: 108px 182px 71px 76px;
-  }
-
+footer{
+  background-color: var(--fontBlack);
+  height: 514px;
+  width: 1674px;
+  margin: 0 auto;
+  margin-top: 105px;
+  margin-bottom: 25px;
+  border-radius: 29px;
+  color: var(--fontWhite);
+  padding: 108px 182px 71px 76px;
+ }
 .footer-contant{
   display: flex;
   align-items: center;
@@ -329,7 +328,19 @@ header h1{
   font-size: 14px;
   font-weight: 300;
 }
+.footer-contant h5{
+  font-size: 18px;
+  font-weight: 400;
+}
+.Links ul li a{
+  color: var(--fontWhite);
+  margin-top: 20px;
+}
 
+.support ul li a{
+  color: var(--fontWhite);
+  padding-top: 20px;
+}
 
   
 /* footer section end */
