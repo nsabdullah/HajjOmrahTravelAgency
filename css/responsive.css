@@ -1,6 +1,16 @@
 @media (width < 760px) {
-  .container{
+  .container {
     max-width: 100%;
     padding: 20px;
-   }
+  }
+  .header_wreper {
+    display: block;
+  }
+
+  .header_wreper {
+    background-image: url(/img/main-cover-img.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+  }
 }
